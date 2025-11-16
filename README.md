@@ -80,7 +80,7 @@ Example:\
 `   clearUsername: false,`\
 `   clearPassword: false,`\
 `   expectedError: 'Error message'  // or '' for success`\
-`}`\
+`}`
 
 ## License
 Educational project for demonstration purposes.

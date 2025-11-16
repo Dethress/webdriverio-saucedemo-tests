@@ -43,7 +43,7 @@ Automated end-to-end testing suite for Saucedemo login functionality using WebDr
 ## Running Tests
 `bash`\
 `# Run all tests`\
-`npm run wdio  # This runs the script: wdio run ./src/config/wdio.conf.js`\
+`npm run wdio  # This runs the script: wdio run ./src/config/wdio.conf.js`
 
 Expected output:
 - ✓ UC-1 Empty credentials

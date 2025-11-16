@@ -26,14 +26,14 @@ Automated end-to-end testing suite for Saucedemo login functionality using WebDr
 - Features: Parallel execution, Data-driven testing, Logging
 
 ## Project Structure
-├── config/
-│   └── wdio.conf.js          # WebDriverIO configuration
-├── tests/
-│   └── login.spec.js         # Test specifications
-├── pageobjects/
-│   └── login.page.js         # Page Object Model
-└── data/
-    └── credentials.js        # Test data provider
+├── config/\\
+│   └── wdio.conf.js          # WebDriverIO configuration\\
+├── tests/\\
+│   └── login.spec.js         # Test specifications\\
+├── pageobjects/\\
+│   └── login.page.js         # Page Object Model\\
+└── data/\\
+    └── credentials.js        # Test data provider\\
 
 ## Prerequisites
 - Node.js v18 or higher
@@ -41,9 +41,9 @@ Automated end-to-end testing suite for Saucedemo login functionality using WebDr
 - Google Chrome browser
 
 ## Running Tests
-`bash`
-`# Run all tests`
-`npm run wdio  # This runs the script: wdio run ./src/config/wdio.conf.js`
+`bash`\\
+`# Run all tests`\\
+`npm run wdio  # This runs the script: wdio run ./src/config/wdio.conf.js`\\
 
 Expected output:
 - ✓ UC-1 Empty credentials
@@ -73,14 +73,14 @@ Note: All test cases work identically on both browsers. Using Chrome only does n
 ## Adding New Test Cases
 Add entries to src/data/credentials.js
 Example:
-`{`
-`   name: 'UC-4 Your test name',`
-`   username: 'test_user',`
-`   password: 'test_pass',`
-`   clearUsername: false,`
-`   clearPassword: false,`
-`   expectedError: 'Error message'  // or '' for success`
-`}`
+`{`\\
+`   name: 'UC-4 Your test name',`\\
+`   username: 'test_user',`\\
+`   password: 'test_pass',`\\
+`   clearUsername: false,`\\
+`   clearPassword: false,`\\
+`   expectedError: 'Error message'  // or '' for success`\\
+`}`\\
 
 ## License
 Educational project for demonstration purposes.

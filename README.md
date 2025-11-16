@@ -27,13 +27,13 @@ Automated end-to-end testing suite for Saucedemo login functionality using WebDr
 
 ## Project Structure
 ├── config/\
-│  `        `└── wdio.conf.js          # WebDriverIO configuration\
+│  &nbsp;&nbsp;&nbsp;└── wdio.conf.js          # WebDriverIO configuration\
 ├── tests/\
-│  `        `└── login.spec.js         # Test specifications\
+│  &nbsp;&nbsp;&nbsp;└── login.spec.js         # Test specifications\
 ├── pageobjects/\
-│  `        `└── login.page.js         # Page Object Model\
+│  &nbsp;&nbsp;&nbsp;└── login.page.js         # Page Object Model\
 └── data/\
-   `        `└── credentials.js        # Test data provider
+   &nbsp;&nbsp;&nbsp;└── credentials.js        # Test data provider
 
 ## Prerequisites
 - Node.js v18 or higher

@@ -51,13 +51,13 @@ Expected output:
 - ✓ UC-3 Valid credentials
 
 ## Browser configuration
-- Chrome
-Status: Fully configured and working.
-Chrome is the primary browser for this project. WebDriverIO v9 automatically manages chromedriver.
+- Chrome\
+Status: Fully configured and working.\
+Chrome is the primary browser for this project. WebDriverIO v9 automatically manages chromedriver.\
 
 - Firefox
-Status: Available but requires manual setup:
-Firefox capability is included in wdio.conf.js but commented out due to environment-specific geckodriver installation issues on Windows.
+Status: Available but requires manual setup:\
+Firefox capability is included in wdio.conf.js but commented out due to environment-specific geckodriver installation issues on Windows.\
 
 To enable Firefox (if needed):
 1. Install Firefox browser

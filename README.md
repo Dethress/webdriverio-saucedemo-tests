@@ -33,7 +33,7 @@ Automated end-to-end testing suite for Saucedemo login functionality using WebDr
 ├── pageobjects/\
 │  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── login.page.js         # Page Object Model\
 └── data/\
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── credentials.js        # Test data provider
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── credentials.js        # Test data provider
 
 ## Prerequisites
 - Node.js v18 or higher
